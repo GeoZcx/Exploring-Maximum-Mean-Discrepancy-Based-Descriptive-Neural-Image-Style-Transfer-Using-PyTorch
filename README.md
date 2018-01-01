@@ -2,9 +2,9 @@
 
 ## How to run
 
-`./download_models.sh`  
+`./download_models.sh` provided by [9].
 `./download_images.sh`  
-`python3 neural_image_style_transfer.py`
+`python3 neural_image_style_transfer.py` built upon [9].
 
 ## Abstract
 
