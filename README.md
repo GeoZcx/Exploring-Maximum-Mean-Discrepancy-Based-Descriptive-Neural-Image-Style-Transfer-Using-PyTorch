@@ -41,7 +41,7 @@ In this project we use 3 content images and 3 style images as inputs and get 3 &
 
 Gatys kindly provides his implementation of [1.1] on [9]. **All the extensions below are built upon Gatys' code.**
 
-In this part, we simply run Gatys' code to reproduce similar results in [1.1]. It can be observed that there is "ghosting" in some results, as stated in [8].
+In this part, we simply run Gatys' code to generate style-transferred images. It can be observed that there is "ghosting" in some results, as stated in [8].
 
 <img src="Results/beethoven_starry_night_gramian_0.0.jpg" height="200"> <img src="Results/church_starry_night_gramian_0.0.jpg" height="200"> <img src="Results/fate_starry_night_gramian_0.0.jpg" height="200">
 <img src="Results/beethoven_face_gramian_0.0.jpg" height="200"> <img src="Results/church_face_gramian_0.0.jpg" height="200"> <img src="Results/fate_face_gramian_0.0.jpg" height="200">
