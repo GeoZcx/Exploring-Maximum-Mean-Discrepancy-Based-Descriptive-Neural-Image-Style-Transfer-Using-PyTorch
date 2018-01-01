@@ -49,7 +49,7 @@ In this part, we simply run Gatys' code to generate style-transferred images. It
 
 ## Part 1: Remove ghosting using activation shift
 
-Risser et al. argue that ghosting occurs because there are multiple sets of pixel values that can produce alike feature maps when passed through CNN and some of the sets looks like ghosting ([8]). Novak et al. give related argument in [3], section 3.3 and suggest that using "activation shift" can reduce the ambiguity of candidate sets of pixel values. Their modification is that: instead of letting  
+Risser et al. argue that ghosting occurs because there are multiple sets of pixel values that can produce alike feature maps when passed through CNN, and some of the sets looks like ghosting ([8]). Novak et al. give related argument in [3], section 3.3 and suggest that using "activation shift" can reduce the ambiguity of candidate sets of pixel values. Their modification is that: instead of letting  
 A = <sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub>SS<sup>T</sup> and G = <sup>1</sup>&frasl;<sub>m<sub>o</sub></sub>FF<sup>T</sup>,  
 let  
 A = <sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub>(S + sU)(S + sU)<sup>T</sup> and G = <sup>1</sup>&frasl;<sub>m<sub>o</sub></sub>(F + sU)(F + sU)<sup>T</sup>, where  
