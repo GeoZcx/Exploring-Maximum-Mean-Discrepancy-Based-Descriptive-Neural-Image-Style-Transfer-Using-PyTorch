@@ -158,7 +158,7 @@ We now examine their performance. It can be observed that the **style loss using
 
 ## Duscussion
 
-We see in the experiments above that there are two style losses creating great results: the one using shifted Gramian matrics and the one using covariance matrices. We regard the latter one as a more elegant way since in the former one, we need to decide one more argument, namely, the activation shift s. However, there are some cases in which the former one outperforms the latter.
+We see in the experiments above that there are two style losses creating great results: the one using shifted Gramian matrics and the one using covariance matrices. We regard the latter as a more elegant way since in the former, we need to decide one more argument, namely, the activation shift s. However, there are some cases in which the former outperforms the latter.
 
 When doing this project, we find that striking the among the weights, a<sub>l</sub> and b<sub>l</sub>, of the losses is a nontrivial work. There is no solid theory that guides us to tune them, and we feel that the balance is just occasionally struck. This may be why people seek other approaches such as feed-forward methods.
 
