@@ -55,7 +55,7 @@ let
 A = <sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub>(S + sU)(S + sU)<sup>T</sup> and G = <sup>1</sup>&frasl;<sub>m<sub>o</sub></sub>(F + sU)(F + sU)<sup>T</sup>, where  
 s is a user-specified scalar and U the all one matrix (with size varying to meet the need).
 
-The explanation of this modification is provided in [3], which we are not going to restate here. Here we simply implement it and examine its performance with s varying. It can be ovserved that the ghosting disappears with |s| increasing. **Activation shift removes ghosting.**
+The explanation of this modification is provided in [3], which we are not going to restate here. Here we simply implement it and examine its performance with s varying. It can be ovserved that the ghosting disappears when |s| increases. **Activation shift removes ghosting.**
 
 ### Gramian matrix with activation shift. Value of s from top to down: -600, -500, -400, -300, -200, -100, 0, 100, 200, 300, 400, 500, 600.
 
