@@ -1,5 +1,11 @@
 # Exploring Maximum-Mean-Discrepancy-Based Descriptive Neural Image Style Transfer Using PyTorch
 
+## How to run
+
+    ./download_models.sh
+    ./download_images.sh
+    python3 neural_image_style_transfer.py
+
 ## Abstract
 
 Since Gatys et al. proposed an image style transfer algorithm using convolution neural network (CNN) in 2015 ([1.1], [1.2]), many proceeding works extend their method and produce various results. Jing et al ([2]) suggested that these methods be divided into 3 categories: Maximum-Mean-Discrepancy(MMD)-based Descriptive Methods, Markov-Random-Field(MRF)-based Descriptive Methods, and Generative Methods. In this project we focus on MMD-based methods, which achieves style transfer by gradient descent on an output image. We reproduce the result of [1.1], implement the idea "activation shift" in [3] to improve transfering quality, and then give furthur insights into the arguments in [4] by both mathematical proofs and experiments.
