@@ -142,7 +142,7 @@ Letting p = 2, we find that the LHS is the style loss using Gramian matrices wit
 In part 2, we mention that minimizing the Gramian-matrix-based style loss is a way to match D<sub>o</sub> to D<sub>s</sub>. There are other ways to describe D<sub>o</sub> and D<sub>s</sub> and therefore are other ways to match them. In this part, we try two descriptions: variance vector and covariance matrix, as shown in the following.
 
 L<sub>s</sub> = &Sigma;<sub>l</sub><sup></sup> <sup>b<sup>l</sup></sup>&frasl;<sub>n<sup>l</sup></sub> &Sigma;<sub>i=1</sub><sup>n<sup>l</sup></sup> (var(F<sub>i</sub>.) - (var(S<sub>i</sub>.))<sup>2</sup>, and  
-L<sub>s</sub> = &Sigma;<sub>l</sub><sup></sup> <sup>b<sup>l</sup></sup>&frasl;<sub>(n<sup>l</sup>)<sup>2</sup></sub> &Sigma;<sub>i=1</sub><sup>n<sup>l</sup></sup> &Sigma;<sub>j=1</sub><sup>n<sup>l</sup></sup> (cov(D<sub>o</sub>) - (cov(D<sub>s</sub>))<sub>ij</sub><sup>2</sup>, respectively.
+L<sub>s</sub> = &Sigma;<sub>l</sub><sup></sup> <sup>b<sup>l</sup></sup>&frasl;<sub>(n<sup>l</sup>)<sup>2</sup></sub> &Sigma;<sub>i=1</sub><sup>n<sup>l</sup></sup> &Sigma;<sub>j=1</sub><sup>n<sup>l</sup></sup> (cov(D<sub>o</sub>)<sub>ij</sub> - (cov(D<sub>s</sub>)<sub>ij</sub>)<sup>2</sup>, respectively.
 
 We now examine their performance. It can be observed that the **style loss using covariance matrices creates great results without ghosting** while thie one using variance vectors creates ghosting easily. It can also be observed that **some styles are easy to transfer (producing less ghosting) while some are not**. For example, Vincent van Gogh's the starry night is an easier one.
 
