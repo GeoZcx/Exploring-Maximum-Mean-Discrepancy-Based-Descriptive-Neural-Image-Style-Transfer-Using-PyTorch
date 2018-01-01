@@ -121,7 +121,7 @@ This is much more easier to compute than what equation (2) suggests. We call thi
 
 ## Part 3: Experiment of part 2
 
-In this part we show that the style loss using mean vector does capture some aspects of the style. 
+In this part we show that the style loss using mean vectors does capture some aspects of the style. 
 
 ### Mean vector
 
