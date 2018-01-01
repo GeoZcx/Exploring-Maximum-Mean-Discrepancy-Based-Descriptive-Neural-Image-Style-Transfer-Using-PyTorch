@@ -129,7 +129,7 @@ In this part we show that the style loss using mean vectors does capture some as
 <img src="Results/beethoven_face_mean_0.0.jpg" height="200"> <img src="Results/church_face_mean_0.0.jpg" height="200"> <img src="Results/fate_face_mean_0.0.jpg" height="200">
 <img src="Results/beethoven_ice_mean_0.0.jpg" height="200"> <img src="Results/church_ice_mean_0.0.jpg" height="200"> <img src="Results/fate_ice_mean_0.0.jpg" height="200">
 
-## Part 4: link between activation shift and MMD
+## Part 4: Link between activation shift and MMD
 
 By substituting each variable z in equation (2) for (z + sU), we have  
 <sup>1</sup>&frasl;<sub>n<sup>p</sup></sub> &Sigma;<sub>i<sub>1</sub>=1</sub><sup>n</sup> &Sigma;<sub>i<sub>2</sub>=1</sub><sup>n</sup> ... &Sigma;<sub>i<sub>p</sub>=1</sub><sup>n</sup> ((<sup>1</sup>&frasl;<sub>m<sub>o</sub></sup></sub> &Sigma;<sub>k=1</sub><sup>m<sub>o</sub></sub></sup> &Pi;<sub>q=1</sub><sup>p</sup> (F<sub>i<sub>q</sub>k</sub> + sU)) - (<sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub> &Sigma;<sub>k=1</sub><sup>m<sub>s</sub></sub></sup> &Pi;<sub>q=1</sub><sup>p</sup> (S<sub>i<sub>q</sub>k</sub> + sU)))<sup>2</sup>  
@@ -137,7 +137,7 @@ By substituting each variable z in equation (2) for (z + sU), we have
 
 Letting p = 2, we find that the LHS is the style loss using Gramian matrices with activation shift s, and the RHS is MMD with "shifted" quadratic kernel. Thus we can reinterpret the conclusion in part 1: **style loss using MMD with shifted quadratic kernel removes ghosting.**
 
-## Part 5: style loss using variance vector and covariance matrix
+## Part 5: Style loss using variance vector and covariance matrix
 
 In part 2, we mention that minimizing the Gramian-matrix-based style loss is a way to match D<sub>o</sub> to D<sub>s</sub>. There are other ways to describe D<sub>o</sub> and D<sub>s</sub> and therefore are other ways to match them. In this part, we try two other descriptions: variance vector and covariance matrix, as shown in the following.
 
