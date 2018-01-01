@@ -18,7 +18,7 @@ In the context below, we omit the superscript l when not needed.
 
 The meaning of Gramian matrices is clearly pointed out in [7], section 1: A<sub>ij</sub> = <sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub> &Sigma;<sub>k=1</sub><sup>m<sub>s</sub></sub></sup> S<sub>ik</sub>S<sub>jk</sub> indicates how often the i-th and j-th features appears together. G is understood similarly.
 
-The content loss takes care of "where" a feature appears in a feature map. On the other hand, the style loss emphasizes "how often" distinct features appear together but does not care "where" this happens.
+The content loss takes care of "where" a feature appears in a feature map. On the other hand, the style loss emphasizes "how often" distinct features appear together but does not care "where" they co-occur.
 
 ### Remarks
 
