@@ -2,8 +2,8 @@
 
 ## How to run
 
-    ./download_models.sh
-    ./download_images.sh
+    ./download_models.sh  
+    ./download_images.sh  
     python3 neural_image_style_transfer.py
 
 ## Abstract
