@@ -156,7 +156,7 @@ We now examine their performance. It can be observed that the **style loss using
 <img src="Results/beethoven_face_covariance_0.0.jpg" height="200"> <img src="Results/church_face_covariance_0.0.jpg" height="200"> <img src="Results/fate_face_covariance_0.0.jpg" height="200">
 <img src="Results/beethoven_ice_covariance_0.0.jpg" height="200"> <img src="Results/church_ice_covariance_0.0.jpg" height="200"> <img src="Results/fate_ice_covariance_0.0.jpg" height="200">
 
-Remark: we can also add activation shifts to mean vectors, variance vectors, and covariance matrices. But if we write down the mathematical formula and do some calculation, we will find that the activation shifts cancel out eventually. Thus activation shifts make sense only for Gramian matrices.
+Remark: we can also add activation shifts to mean vectors, variance vectors, and covariance matrices. But if we write down the mathematical formula of style losses and do some calculation, we will find that the activation shifts cancel out eventually. Thus activation shifts make sense only for Gramian matrices.
 
 ## Discussion
 
