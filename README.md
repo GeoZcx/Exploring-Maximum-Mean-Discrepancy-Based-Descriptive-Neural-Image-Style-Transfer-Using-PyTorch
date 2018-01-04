@@ -156,7 +156,10 @@ We now examine their performance. It can be observed that the **style loss using
 <img src="Results/beethoven_face_covariance_0.0.jpg" height="200"> <img src="Results/church_face_covariance_0.0.jpg" height="200"> <img src="Results/fate_face_covariance_0.0.jpg" height="200">
 <img src="Results/beethoven_ice_covariance_0.0.jpg" height="200"> <img src="Results/church_ice_covariance_0.0.jpg" height="200"> <img src="Results/fate_ice_covariance_0.0.jpg" height="200">
 
-Remark: we can also add activation shifts to mean vectors, variance vectors, and covariance matrices. But if we write down the mathematical formula of style losses and do some calculation, we will find that the activation shifts cancel out eventually. Thus activation shifts make sense only for Gramian matrices.
+### Remarks
+
+1. We can also add activation shifts to mean vectors, variance vectors, and covariance matrices. But if we write down the mathematical formula of style losses and do some calculation, we will find that the activation shifts cancel out eventually. Thus activation shifts make sense only for Gramian matrices.  
+2. Style losses using linear combinations of mean vectors, Gramian matrices, variance vectors, and covariance matrices are possible, but the goal of this project is to examine the ability of each probability description to transfer the style, so we will not do such tests.
 
 ## Discussion
 
