@@ -55,7 +55,7 @@ In this part, we simply run Gatys' code to generate style-transferred images. It
 
 ## Part 1: Remove ghosting using activation shift
 
-Risser et al. argue that ghosting occurs because there are multiple sets of pixel values that can produce alike feature maps when passed through CNN, and some of the sets looks like ghosting ([8]). Novak et al. give related argument in [3], section 3.3 and suggest that using "activation shift" can reduce the ambiguity of candidate sets of pixel values. Their modification is that: instead of letting  
+Risser et al. argue that ghosting occurs because there are multiple sets of pixel values that can produce alike feature maps when passed through CNN, and some of the sets looks like ghosting ([8]). Novak et al. also give a related argument in [3], section 3.3 and suggest that using "activation shift" can reduce the ambiguity of candidate sets of pixel values. Their modification is that: instead of letting  
 A = <sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub>SS<sup>T</sup> and G = <sup>1</sup>&frasl;<sub>m<sub>o</sub></sub>FF<sup>T</sup>,  
 let  
 A = <sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub>(S + sU)(S + sU)<sup>T</sup> and G = <sup>1</sup>&frasl;<sub>m<sub>o</sub></sub>(F + sU)(F + sU)<sup>T</sup>, where  
@@ -84,7 +84,7 @@ src="Results/fate_ice_gramian_600.0.jpg" height="75">
 
 Li et al. and Risser et al. regard each column S.<sub>k</sub> of S and F.<sub>k</sub> of F as generated from "style" probability distributions D<sub>s</sub> and D<sub>o</sub>, respectively ([4][8]). Minimizing the Gramian-matrix-based style loss L<sub>s</sub> is a way to match D<sub>o</sub> to D<sub>s</sub>.
 
-Li et al. furthur argues that minimizing L<sub>s</sub> can be interpreted as minimizing MMD with a quadratic kernel. We slightly modify their proof and present it here.
+Li et al. furthur argue that minimizing L<sub>s</sub> can be interpreted as minimizing MMD with a quadratic kernel. We slightly modify their proof and present it here.
 
 <sup>1</sup>&frasl;<sub>n<sup>2</sup></sub> &Sigma;<sub>i=1</sub><sup>n</sup> &Sigma;<sub>j=1</sub><sup>n</sup> (G<sub>ij</sub> - A<sub>ij</sub>)<sup>2</sup>  
 \= <sup>1</sup>&frasl;<sub>n<sup>2</sup></sub> &Sigma;<sub>i=1</sub><sup>n</sup> &Sigma;<sub>j=1</sub><sup>n</sup> ((<sup>1</sup>&frasl;<sub>m<sub>o</sub></sup></sub>FF<sup>T</sup>)<sub>ij</sub> - (<sup>1</sup>&frasl;<sub>m<sub>s</sub></sup></sub>SS<sup>T</sup>)<sub>ij</sub>)<sup>2</sup>  
