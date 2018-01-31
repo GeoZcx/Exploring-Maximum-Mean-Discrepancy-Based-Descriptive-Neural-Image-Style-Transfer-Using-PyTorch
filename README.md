@@ -82,7 +82,7 @@ src="Results/fate_ice_gramian_600.0.jpg" height="75">
 
 ## Part 2: On theoretical part of [4]
 
-Li et al. and Risser et al. regard each column A.<sub>k</sub> of A and G.<sub>k</sub> of G as generated from "style" probability distributions D<sub>s</sub> and D<sub>o</sub>, respectively ([4][8]). Minimizing the Gramian-matrix-based style loss L<sub>s</sub> is a way to match D<sub>o</sub> to D<sub>s</sub>.
+Li et al. and Risser et al. regard each column S.<sub>k</sub> of S and F.<sub>k</sub> of F as generated from "style" probability distributions D<sub>s</sub> and D<sub>o</sub>, respectively ([4][8]). Minimizing the Gramian-matrix-based style loss L<sub>s</sub> is a way to match D<sub>o</sub> to D<sub>s</sub>.
 
 Li et al. furthur argues that minimizing L<sub>s</sub> can be interpreted as minimizing MMD with a quadratic kernel. We slightly modify their proof and present it here.
 
