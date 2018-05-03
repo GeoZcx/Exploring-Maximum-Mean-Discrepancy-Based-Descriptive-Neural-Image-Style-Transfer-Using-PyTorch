@@ -9,7 +9,7 @@ mv 3-80-NewLookTravel_Paris_Cathedrale-Notre-Dame-nuit.jpg church.jpg
 wget https://raw.githubusercontent.com/leongatys/PytorchNeuralStyleTransfer/master/Images/vangogh_starry_night.jpg
 mv vangogh_starry_night.jpg starry_night.jpg
 
-wget http://www.neurosoup.com/wp-content/uploads/2016/08/2012-fawkes-randal-roberts_580.jpg
+wget https://www.allofthisisforyou.com/images/2012-fawkes-randal-roberts_580.jpg
 mv 2012-fawkes-randal-roberts_580.jpg face.jpg
 
 wget http://eskipaper.com/images/ice-5.jpg
