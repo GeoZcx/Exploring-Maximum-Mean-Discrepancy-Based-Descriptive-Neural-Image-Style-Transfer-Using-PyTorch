@@ -41,7 +41,7 @@ In this project we use 3 content images and 3 style images as inputs and get 3 &
 
 ### Style images ([S.1][S.2][S.3])
 
-<img src="https://raw.githubusercontent.com/leongatys/PytorchNeuralStyleTransfer/master/Images/vangogh_starry_night.jpg" height="200"> <img src="http://www.neurosoup.com/wp-content/uploads/2016/08/2012-fawkes-randal-roberts_580.jpg" height="200"> <img src="http://eskipaper.com/images/ice-5.jpg" height="200">
+<img src="https://raw.githubusercontent.com/leongatys/PytorchNeuralStyleTransfer/master/Images/vangogh_starry_night.jpg" height="200"> <img src="https://www.allofthisisforyou.com/images/2012-fawkes-randal-roberts_580.jpg" height="200"> <img src="http://eskipaper.com/images/ice-5.jpg" height="200">
 
 ## Part 0: Reproduce Gatys et al.'s results
 
@@ -196,7 +196,7 @@ When doing this project, we find that striking the balance among the weights, a<
 #### Style images
 
 [S.1] The starry night by Vincent van Gogh. https://raw.githubusercontent.com/leongatys/PytorchNeuralStyleTransfer/master/Images/vangogh_starry_night.jpg  
-[S.2] Fawkes by Randal Roberts. http://www.neurosoup.com/wp-content/uploads/2016/08/2012-fawkes-randal-roberts_580.jpg  
+[S.2] Fawkes by Randal Roberts. https://www.allofthisisforyou.com/images/2012-fawkes-randal-roberts_580.jpg  
 [S.3] Ice. http://eskipaper.com/images/ice-5.jpg
 
 ### Other references
