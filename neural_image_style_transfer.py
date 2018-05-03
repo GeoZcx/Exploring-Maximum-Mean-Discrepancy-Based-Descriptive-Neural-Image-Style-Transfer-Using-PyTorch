@@ -192,7 +192,7 @@ for contentImageName, styleImageName, styleDescription in product(contentImageNa
 
 		img_dirs = [image_dir, image_dir]
 		img_names = [styleImageName, contentImageName]
-		imgs = [Image.open(img_dirs[i] + name + '.jpg') for i, name in enumerate(img_names)]
+		imgs = [Image.open(img_dirs[i] + name + '.jpg').convert('RGB') for i, name in enumerate(img_names)]
 		imgs_torch = [prep(img) for img in imgs]
 		if torch.cuda.is_available():
 			imgs_torch = [Variable(img.unsqueeze(0).cuda()) for img in imgs_torch]
